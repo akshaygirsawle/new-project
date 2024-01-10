@@ -39,8 +39,6 @@ export default function TextForm(props) {
             <button  className="btn btn-primary mx-1"onClick={handleClick}>Convert to lowercase</button>
             <button  className="btn btn-primary mx-1" onClick={handleclearClick}>Clear text</button>
             <button  className="btn btn-primary mx-1" onClick={handlecopy}>Copy text</button>
-            <button  className="btn btn-primary mx-1" onClick={handlecopy}>Copy text</button>
-
 
         </div>
         <div className="container" style={{color:props.mode==='dark'?'white':'#042743'}}>
