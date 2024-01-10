@@ -19,7 +19,6 @@ export default function TextForm(props) {
     }
     const handleonChange= (event) =>{
         setText(event.target.value)
-
     }
     const handlecopy= (event) =>{
         var text= document.getElementById('myBox')
